@@ -1,0 +1,26 @@
+/* Body Style */
+body{
+    background-image: url(../Img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+/* Header Style */
+.header-h1, .header-p{
+    color: white;
+    text-align: center;
+}
+.header-h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.header-p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+/* Form Style */
