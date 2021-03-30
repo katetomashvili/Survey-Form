@@ -99,3 +99,29 @@ select{
     font-size: 0.9rem;
     color: #e4e4e4;
 }
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+.submit-button {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: rgb(88, 7, 88);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+textarea::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
